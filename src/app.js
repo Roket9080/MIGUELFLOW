@@ -13,3 +13,7 @@ version:"1.0.0",
 message: "Sistema MiguelFlow funcionando correctamente"
  };
 }
+
+export function sumar(a,b){
+return a + b;
+}

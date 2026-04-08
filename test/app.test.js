@@ -1,4 +1,4 @@
-import { saludar, despedir, estadoSistema } from "../src/app.js"
+import { saludar, despedir, estadoSistema,sumar } from "../src/app.js"
 
 function ejecutarPruebas() {
     let pasadas = 0;
@@ -21,7 +21,18 @@ function ejecutarPruebas() {
         console.log("Test 2 Fallido:", estado, "en Miguel");
         fallidas++;
     }
+    const sumarResultado = sumar (2,3);
+    if(sumarResultado === 5){
+    console.log("Test 3 pasado: funcion sumar funciona correctamente");
+    pasada++;
+    } else {
+    console.log ("Test 3 Fallido:", sumaResultado);
+    fallidas++;
+    }
+
     console.log("\nResultados: " + pasadas + " pasadas,", + fallidas + "fallidas");
     if (fallidas > 0) process.exit(1);
 }
-ejecutarPruebas();
+
+
+
