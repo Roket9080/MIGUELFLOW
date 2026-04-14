@@ -39,8 +39,8 @@ function ejecutarPruebas() {
     }
 
 
-    const c = 5;
-    const d = 4;
+    const c = 50;
+    const d = 43;
     
     const restarResultado = restar(c, d);
 
