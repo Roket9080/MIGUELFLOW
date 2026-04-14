@@ -1,4 +1,4 @@
-import { saludar, despedir, estadoSistema, sumar, restar } from "../src/app.js"
+import { saludar, despedir, estadoSistema,sumar,healthCheck } from "../src/app.js"
 
 function ejecutarPruebas() {
     let pasadas = 0;
@@ -21,7 +21,7 @@ function ejecutarPruebas() {
         console.log("Test 2 Fallido:", actualEstado, "en Miguel");
         fallidas++;
     }
-    
+
     // Test sumar mostrando resultado
     const a = 35;
     const b = 58;
@@ -37,19 +37,13 @@ function ejecutarPruebas() {
         console.log("Test 3 Fallido:", sumarResultado);
         fallidas++;
     }
-
-
-    const c = 50;
-    const d = 43;
     
-    const restarResultado = restar(c, d);
-
-    console.log("Resultado de restar:", c, "-", d, "=", restarResultado);
-    if (restarResultado === c - d){
-        console.log ("Test 4 pasado: funcion restar funcion correctamente");
+    const health = healthCheck();
+    if (health.status === 'ok') {
+        console.log('Test 5 healthCheck pasado');
         pasadas++;
     } else {
-        console.log("Test 4 Fallido:", restarResultado);
+        console.log('Test 5 healthCheck fallido', health);
         fallidas++;
     }
 
