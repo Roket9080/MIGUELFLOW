@@ -1,5 +1,5 @@
-<h1 align="center">Oii, eu sou a Julia Krisnarane 💌🌷<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px"> </h1>
-<h3 align="center">Estudante de Análise e Desenvolvimento de Sistemas | Back-End Developer</h3>
+<h1 align="center">Oii, eu sou a Miguel Quiñonez 🥱😴<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px"> </h1>
+<h3 align="center">Estudante de Análisis y Desarrollo De Software | Back-End Developer</h3>
 
 <p align="center">
   <a href="mailto:jkrisnarane@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -10,10 +10,10 @@
 
 <div align="left">
 <fieldset style="border: 2px solid #F82A94; border-radius: 10px; padding: 20px; max-width: 800px;">
-  <legend align="left"><h3>👩🏻‍💻 Sobre Mim</h3></legend>
+  <legend align="left"><h3>👩🏻‍💻 Sobre Mi</h3></legend>
 
   <em>
-Sou uma desenvolvedora Back-End e estudante do 2° semestre de <strong>Análise e Desenvolvimento de Sistemas</strong> na <strong>Fatec Mogi das Cruzes</strong>. Minha jornada na tecnologia começou com o ensino médio técnico em Informática para a Internet, o que me deu uma base sólida que hoje aplico com foco em desenvolvimento de software.</p>
+Soy desarrollador back-end y estudiante de segundo semestre de <strong>Análisis y Desarrollo de Sistemas</strong> en <strong>Sena CTIP POPAYAN,CAUCA,COLOMBIA</strong></p>
   </em> 
   <br>
 <div align= "center">
@@ -73,6 +73,6 @@ Sou uma desenvolvedora Back-End e estudante do 2° semestre de <strong>Análise 
 <br>
 <br>
 
-- 📫 Contato: **jkrisnarane@gmail.com**
+- 📫 Contato: **migueherazo2004@gmail.com@gmail.com**
 
 <p align="center"> 
