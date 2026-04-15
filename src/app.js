@@ -26,7 +26,7 @@ servicio: 'StreamFlow API',
 version:'1.0.0'
     };
 }
-// factorial.js
+
 
 export function factorial(n) {
   if (n < 0) {
