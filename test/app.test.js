@@ -43,7 +43,7 @@ function ejecutarPruebas() {
 
     console.log("Resultado factorial:", numero, "=", resultadoFactorial);
 
-    if (resultadoFactorial === factorial(numero)) {
+    if (resultadoFactorial === 120) {
         console.log("Test 4 pasado: funcion factorial funciona correctamente");
         pasadas++;
     } else {
