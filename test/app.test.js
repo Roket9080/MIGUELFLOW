@@ -1,4 +1,4 @@
-import { saludar, despedir, estadoSistema,sumar,healthCheck } from "../src/app.js"
+import { saludar, despedir, estadoSistema,sumar,healthCheck,factorial } from "../src/app.js"
 
 function ejecutarPruebas() {
     let pasadas = 0;
@@ -37,7 +37,20 @@ function ejecutarPruebas() {
         console.log("Test 3 Fallido:", sumarResultado);
         fallidas++;
     }
-    
+
+    const numero = 20;
+    const resultadoFactorial = factorial(numero);
+
+    console.log("Resultado factorial:", numero, "=", resultadoFactorial);
+
+    if (resultadoFactorial === factorial(numero)) {
+        console.log("Test 4 pasado: funcion factorial funciona correctamente");
+        pasadas++;
+    } else {
+        console.log("Test 4 Fallido:", resultadoFactorial);
+        fallidas++;
+    }
+
     const health = healthCheck();
     if (health.status === 'ok') {
         console.log('Test 5 healthCheck pasado');
