@@ -27,3 +27,18 @@ version:'1.0.0'
     };
 }
 
+
+export function factorial(n) {
+  if (n < 0) {
+    return "Error: el factorial no está definido para números negativos";
+  }
+
+  let result = 1;
+
+  for (let i = 2; i <= n; i++) {
+    result *= i;
+  }
+
+  return result;
+}
+
