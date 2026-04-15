@@ -37,7 +37,8 @@ function ejecutarPruebas() {
         console.log("Test 3 Fallido:", sumarResultado);
         fallidas++;
     }
-    const numero = 6;
+
+    const numero = 20;
     const resultadoFactorial = factorial(numero);
 
     console.log("Resultado factorial:", numero, "=", resultadoFactorial);
@@ -50,7 +51,6 @@ function ejecutarPruebas() {
         fallidas++;
     }
 
-    
     const health = healthCheck();
     if (health.status === 'ok') {
         console.log('Test 5 healthCheck pasado');

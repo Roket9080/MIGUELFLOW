@@ -27,9 +27,10 @@ version:'1.0.0'
     };
 }
 
+
 export function factorial(n) {
   if (n < 0) {
-    return "Error: no existe factorial para negativos";
+    return "Error: el factorial no está definido para números negativos";
   }
 
   let result = 1;
@@ -40,3 +41,4 @@ export function factorial(n) {
 
   return result;
 }
+
