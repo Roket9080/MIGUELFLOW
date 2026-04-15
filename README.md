@@ -35,12 +35,12 @@
  * Represents me.
  *
  * @constructor
- * @param {string} location - Gondia, Maharashtra, India.
- * @param {string} languagues - English, Hindi, Marathi.
- * @param {string} jobTitle - Software Engineer.
- * @param {string} specialization - Building full-fledged Backend systems and iOS applications.
+ * @param {string} location - Miguel Angel Quiñonez.
+ * @param {string} location - Cauca, Popayan, Colombia.
+ * @param {string} languagues - English, Español.
+ * @param {string} jobTitle - Student of Software Engineer.
  * @param {string} interests - AI, Distributed Systems & problem-solving.
- * @param {string} hobbies - Trekking, Reading, gaming & playing music.
+ * @param {string} hobbies -   Reading, gaming & playing music.
  * @param {string} education - BTech Computer Engineering, Viswakarma Institute of Technology, Pune.
  * @param {string} approachable - Yes, to collaborate on exciting projects, don't hesitate to react out.
  * @param {string} stength - Resolute.
