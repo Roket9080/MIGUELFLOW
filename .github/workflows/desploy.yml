@@ -1,0 +1,31 @@
+name: 🚀 Deploy - codemiguel despliegue
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: 🏗️ Desplegar a produccion
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout del codigo
+        uses: actions/checkout@v4
+
+      - name: 🟢 Configurar node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 📦 instalar y probar
+        run: |
+          npm install
+          npm test
+
+      - name: 🚢 Desplegar aplicacion
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "🚀 Iniciando despliegue de aplicacion codemiguel v$VERSION"
+          echo "✅ sistema desplegado correctamente"      
+          echo "🌐 url: http://streamflow.example.com"
