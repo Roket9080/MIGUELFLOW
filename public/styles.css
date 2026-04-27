@@ -12,14 +12,6 @@ header {
     border-radius: 8px;
 }
 
-.badge {
-    background: #009B4C;
-    color: white;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-}
-
 .card {
     background: #f5f5f5;
     padding: 20px;
