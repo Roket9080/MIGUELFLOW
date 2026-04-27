@@ -19,8 +19,10 @@ function verificarsistema() {
 
     statusDiv.textContent = `${resultado.message} | ${resultado.timestamp}`;
     statusDiv.style.color = '#009B4C';
-}
 
+    // 👇 efecto visual real
+    statusDiv.classList.add('active');
+}
 document.addEventListener('DOMContentLoaded', () => {
     const versionEl = document.getElementById('version');
     if (versionEl) {
